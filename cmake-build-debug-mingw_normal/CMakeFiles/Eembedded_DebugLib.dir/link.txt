@@ -1,0 +1,3 @@
+"E:\CLion\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Eembedded_DebugLib.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\Eembedded_DebugLib.dir/objects.a @CMakeFiles\Eembedded_DebugLib.dir\objects1
+C:\MinGW\bin\mingw32-gcc.exe -g -Wl,--whole-archive CMakeFiles\Eembedded_DebugLib.dir/objects.a -Wl,--no-whole-archive -o Eembedded_DebugLib.exe -Wl,--out-implib,libEembedded_DebugLib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Eembedded_DebugLib.dir\linkLibs.rsp
